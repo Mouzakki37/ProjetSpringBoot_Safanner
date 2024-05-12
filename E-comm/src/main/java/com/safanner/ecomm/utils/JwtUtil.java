@@ -16,7 +16,7 @@ import java.util.function.Function;
 
 @Component
 public class JwtUtil {
-    public static final String SECRET_KEY = "5367566859" ;
+    public static final String SECRET_KEY = "2576d32184b5116707036e63826d30bbad5c7e6457212dc8627a6bdd8f5519a1" ;
     public String generateToken(String userName){
         Map<String, Object> claims = new HashMap<>();
         return createToken(claims, userName);

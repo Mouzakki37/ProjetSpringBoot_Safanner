@@ -43,7 +43,7 @@ public class AuthController {
 
     public final AuthService authService;
 
-    @PostMapping("/Authenticate")
+    @PostMapping("/authenticate")
     public void createAuthenticationToken(@RequestBody AuthenticationRequest authenticationRequest,
                                           HttpServletResponse response) throws IOException, JSONException {
 
