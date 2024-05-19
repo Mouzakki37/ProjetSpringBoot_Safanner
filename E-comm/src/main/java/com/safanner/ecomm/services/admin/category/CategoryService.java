@@ -3,7 +3,12 @@ package com.safanner.ecomm.services.admin.category;
 import com.safanner.ecomm.dto.CategoryDto;
 import com.safanner.ecomm.entities.Category;
 
+import java.util.List;
+
 public interface CategoryService {
 
-    Category createcategory(CategoryDto categoryDto);
+    Category createCategory(CategoryDto categoryDto);
+
+    List<Category> getAllCategories();
+
 }
